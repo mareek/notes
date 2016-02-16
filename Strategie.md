@@ -16,3 +16,9 @@
 * Mode de jeu capture the flag avec flag au centre de la map 
 * Possibilité de se déplacer en marchant avec l'arme prête à tirer ou en courant 3x plus vite mais nécéssitant 2 actions avant de pouvoir tirer 
 * L'overwatch façon Xcom demandera au personnage de se mettre en partie à découvert et donc de prendre plus de dégâts en cas d'attaque ennemie 
+* Idée de système de dégat : 
+    * Chaque balle de chaque arme fait une quantité de dégat fixe. 
+    * la proportion de balle atteignant leur cible est fonction de la couverture, les mouvements du tireur ou de la cible, la précision de l'arme, la dispertion, la distance, etc.
+    * La première balle qui touche est celle dont la probabilité de toucher atteint 0,5. Ex: on a une proportion de 1/3, la première balle manque, la deuxième touche et la 3ème manque
+    * le recule est pris en compte en diminuant la proportion de balles qui touchent. ex: Sur une AK47, les 3 premières balles sont précises et n'ont pas de pénalité, les 3 suivantes on une penalité de 1/2, toutes les suivantes ont une penalité de 1/10
+    * Réfléchir pour voir comment s'accordent le recul et la dispertion. Même avec un gros recul, toutes les balles devraient toucher une cible à bout portant.
