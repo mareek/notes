@@ -1,6 +1,5 @@
 * Tour par tour 
 * Déplacement par case 
-* 5 classes façon Xcom (assault/shotgun, medic/M16, heavy/bazooka+smg, Sniper) 
 * Les tours se déroulent en simultané à la façon d'un frozen synapse 
 * Il n'y a pas de hasard, les coups touchent ou pas en fonction de l'arme utilisée, de la portée et autres règles. Au lieu d'avoir un pourcentage de chance de toucher, on a un pourcentage de dégat par rapport au max de l'arme.  
 * Le heavy peut détruire des pans du décors avec son bazooka 
